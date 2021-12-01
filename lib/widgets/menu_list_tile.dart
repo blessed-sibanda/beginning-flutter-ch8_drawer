@@ -4,8 +4,8 @@ import '../pages/birthdays.dart';
 import '../pages/reminders.dart';
 import '../pages/gratitude.dart';
 
-class MenuListTile extends StatelessWidget {
-  const MenuListTile({Key? key}) : super(key: key);
+class MenuListTileWidget extends StatelessWidget {
+  const MenuListTileWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
