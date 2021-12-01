@@ -24,6 +24,7 @@ class LeftDrawerWidget extends StatelessWidget {
             decoration: BoxDecoration(
               image: DecorationImage(
                 image: AssetImage('assets/images/home_top_mountain.jpg'),
+                fit: BoxFit.cover,
               ),
             ),
           ),

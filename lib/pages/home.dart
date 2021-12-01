@@ -1,3 +1,5 @@
+import 'package:ch8_drawer/widgets/left_drawer.dart';
+import 'package:ch8_drawer/widgets/right_drawer.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -16,7 +18,9 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(
+      drawer: const LeftDrawerWidget(),
+      endDrawer: const RightDrawerWidget(),
+      body: SafeArea(
         child: Container(),
       ),
     );
